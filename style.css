@@ -1,0 +1,83 @@
+*{
+    margin: 2px;
+    box-sizing: border-box;
+}
+.leftside img{
+    border-color: aliceblue;
+    padding: 10px;
+    border-radius: 50%;
+    width: 200px;
+}
+.leftside{
+    width: 20%;
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    background-color: aqua;
+    text-align: center;
+    height: 60vh;
+    border-radius: 10%;
+}
+.rp{
+    text-align: center;
+}
+h2, h4{
+    text-align: center;
+}
+.ovogner{
+    text-align: center;
+}
+.rightside{
+    height: 60vh;
+    display: inline-block;
+    text-align: right;
+    background-color: rgb(89, 179, 221);
+}
+.secondlist{
+    text-align: left;
+}
+.lastlist{
+    text-align: left;
+}
+body{
+    margin: 0px;
+    display: flex;
+}
+.firstlist{
+    font-size: 20px;
+    text-align: left;
+}
+aside{
+    right: 0px;
+    top: 50%;
+    margin-left: 2px;
+    position: absolute;
+    background-color: aquamarine;
+    text-align: right;
+    border-radius: 10px 0px 0px 10px;
+}
+.chat:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+.leftslide .rightslide{
+    display: inline-block;
+}
+.sticky{
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    top: 70%;
+    margin-left: 0px;
+    position: fixed;
+    background-color: aquamarine;
+    text-align: right;
+    border-radius: 10px 0px 0px 10px;
+}
+.sticky:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+}
